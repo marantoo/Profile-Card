@@ -11,7 +11,7 @@ body{
   background-color: hsl(185, 75%, 39%);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: -20px -300px;
+  background-position: top -400px left 00px, bottom -350px right 00px;
 }
 
 
@@ -87,13 +87,20 @@ body{
 }
 
 .attribution{
+  height: 10px;
   font-size: 11px;
 }
+
+
 
 /* TEXT */
 
 p{
   margin-top: 0;
+}
+
+.challenge{
+  margin-bottom: 6px;
 }
 
 a{
